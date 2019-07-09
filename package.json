@@ -1,7 +1,7 @@
 {
 	"name": "botlist",
-	"version": "1.0.0",
-	"description": "A package for easily updating your bot count on all Discord bot lists.",
+	"version": "1.0.1",
+	"description": "A package for easily updating your server count on all Discord bot lists.",
 	"main": "src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"

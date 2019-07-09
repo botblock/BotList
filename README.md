@@ -1,5 +1,5 @@
 # BotList
-A package for easily updating your bot count on all Discord bot lists.
+A package for easily updating your server count on all Discord bot lists.
 
 ## Getting Started
 To install the package, you can simply run `npm i botlist` in your bot directory. After the installation is complete, you can append the code below to your bot, which you may need to modify depending on the structure of your bot.
