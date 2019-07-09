@@ -1,0 +1,29 @@
+{
+	"name": "botlist",
+	"version": "1.0.0",
+	"description": "A package for easily updating your bot count on all Discord bot lists.",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PassTheMayo/BotList.git"
+	},
+	"keywords": [
+		"bot",
+		"list",
+		"discord",
+		"server",
+		"count"
+	],
+	"author": "PassTheMayo",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PassTheMayo/BotList/issues"
+	},
+	"homepage": "https://github.com/PassTheMayo/BotList#readme",
+	"dependencies": {
+		"node-fetch": "^2.6.0"
+	}
+}
