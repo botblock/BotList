@@ -16,7 +16,8 @@ class Client extends EventEmitter {
 		this._fetchLists();
 		this._fetchInterval = setInterval(this._fetchLists.bind(this), 1000 * 60 * 5);
 
-		if (this._options.interval > Math.pow(2, 31)) throw new Error('The provided interval (' + this.options.interval + ') is over the maximum safe integer of ' + Math.pow(2, 31));
+		if (this._options.interval < 0) throw new Error('The provided interval (' + this._options.interval + ') was below 0.');
+		if (this._options.interval > Number.MAX_SAFE_INTEGER) throw new Error('The provided interval (' + this.options.interval + ') is over the maximum safe integer of ' + Number.MAX_SAFE_INTEGER);
 	}
 
 	start(callback) {
